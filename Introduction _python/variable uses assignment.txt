@@ -1,0 +1,9 @@
+What is variables and specify it's use in programing language?
+  -> variable is a value that can change, depending on conditions or on information passed to the program.
+  -> A program consists of instructions that tell the computer what to do and data that the program uses when it is running.
+  -> A variable is way of storing information in a computer program. think of a variable like a container 
+    and the name of the variable as the lablel on the container which shows us what inside.
+  -> Variable are used in coding and programming to help coder understand, remender and use the information in program.
+
+eg:- the variable 'a' could contain the number 5 and 'b' could contain the number 10.
+     during execution of the program, the statment "a+b" is replaced by the actual value:5+10" and the result will be 15.
