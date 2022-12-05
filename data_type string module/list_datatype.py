@@ -65,7 +65,7 @@ print(lrev)
 '''
 
 #for loop over list
-
+'''
 print("with index:")
 
 for i in range(0,len(l),1):
@@ -76,13 +76,71 @@ print("without index:")
 for i in l:
     print(i)
 
+'''
+
+#Add element in the list
+'''
+There are two methods or function to add element in the list.
+
+1.append():
+  This function or method is used to add element at the end of the list.
+
+  syntax:
+    List_variable.append(element)
+
+2. insert()
+
+   This function or method is used to add element at the specific index position
+
+  syntax:
+    List_variable.append(index_pos,value)
+
+'''
+l.append(24.5)
+print(l)
+
+l.append('eclass')
+print(l)
+
+'''
+
+                                  l
+            [10,89.7,-3,45.6,'itvedant',24.5,''eclass']
+             0   1    2  3     4         5       6
+'''
+
+l.insert(3,50)
+print(l)
+
+#update list element
+'''
+suntax
+   list_variable[index_pos]=value
+'''
+
+l[4]="itvedant_eclass"
+print(l)
 
 
+#delect or remove list element
+'''
+
+pop(): this is used to delete last elements.
+
+pop(index): this remve specific element whose index is mentioned in the pop() method.
+
+'''
+
+l.pop()
+print(l)
+
+#pop(index)
+
+l.pop(3)
+print(l)
 
 
+#del: keyword used to delete entire list at once.
 
-
-
-
-
-
+del l
+print(l)
